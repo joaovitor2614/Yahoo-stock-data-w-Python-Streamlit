@@ -1,2 +1,2 @@
-echo PORT $PORT
-web: sh setup.sh && streamlit run stockprice.py
+
+worker: sh setup.sh && streamlit run stockprice.py
